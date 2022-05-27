@@ -31,7 +31,7 @@ body {
 .dashboard {
     width: 60%;
     min-height: 80vh;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .2));
     display: grid;
     grid-template-columns: 1fr 2fr;
     border-radius: 1rem;
@@ -136,7 +136,7 @@ img {
 }
 
 .skill {
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .3);
     padding: 1rem 2rem;
     border-radius: 1rem;
     display: flex;
@@ -176,7 +176,7 @@ img {
     position: relative;
     height: 1rem;
     width: 100%;
-    background-color: rgb(236, 198, 220);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -226,4 +226,14 @@ img {
     border-radius: 50%;
     bottom: -5%;
     left: 10%;
+}
+
+.circle-3 {
+    height: 100px;
+    width: 100px;
+    background-color: #35d19d;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 65%;
+    left: 40%;
 }
